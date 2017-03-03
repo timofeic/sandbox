@@ -13,7 +13,7 @@ def is_prime(n):
 def answer(n):
     count = 2
     prime = []
-    while len(prime) <= 1000:
+    while len(prime) <= 10000:
         if is_prime(count):
             prime.append(count)
         count+=1
